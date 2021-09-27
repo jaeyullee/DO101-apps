@@ -1,6 +1,8 @@
 var express = require('express');
 app = express();
 
+var response;
+
 app.get('/', function (req, res) {
   response = 'This is version 2 of the app.' + '\n';
 
